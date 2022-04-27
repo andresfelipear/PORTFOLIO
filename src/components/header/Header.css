@@ -1,0 +1,40 @@
+:root{
+	--maincolor:rgba(85, 0, 197, 0.72);
+    --maincolorhov:rgba(85, 0, 197, 0.72);
+    --secondaryColor: white;
+}
+
+.breadcrumb ul{
+    align-items: center;
+}
+
+nav{
+    background-color: var(--maincolor) !important;
+    color:var(--secondaryColor) !important;
+
+}
+
+.navbar-item, .navbar-item:hover{
+    color: #FFF!important;
+}
+
+.navbar-item:hover{
+    background-color: var(--maincolorhov)!important;
+}
+
+@media screen and (max-width: 1023px){
+    .navbar-menu{
+        background-color: #fff6f6!important;
+        box-shadow: none!important;
+        border-top: 1px solid #905960;
+        padding: 0px;
+    }
+    .navbar-dropdown{
+        padding: 0px;
+    }
+    .navbar-dropdown .navbar-item{
+        text-align: center;
+        border-bottom: 0.1px solid rgba(144, 89, 96,0.5);
+        font-size: medium;
+    }
+}
