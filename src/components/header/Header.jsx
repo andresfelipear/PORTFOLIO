@@ -4,6 +4,7 @@ import React, {  useEffect, useState } from "react";
 import { Navbar, Icon, } from "react-bulma-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAmilia } from '@fortawesome/free-brands-svg-icons'
+import { Link } from "react-router-dom";
 
 function Header() {
 
@@ -25,6 +26,7 @@ function Header() {
 
     return (
         <div>
+            <Link to={"/contact"}>Contact</Link>
             <Navbar color={'link'}>
                 <Navbar.Brand style={{ display: 'flex', justifyContent: 'space-between'}} >
                     <div style={{ display: 'flex'}}>
