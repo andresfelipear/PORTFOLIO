@@ -26,7 +26,6 @@ function Header() {
 
     return (
         <div>
-            <Link to={"/contact"}>Contact</Link>
             <Navbar color={'link'}>
                 <Navbar.Brand style={{ display: 'flex', justifyContent: 'space-between'}} >
                     <div style={{ display: 'flex'}}>
