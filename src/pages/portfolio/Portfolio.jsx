@@ -7,17 +7,17 @@ function Portfolio() {
       <Projects>
         <ProjectImg src='/images/projects/page1.jpg'/>
         <ProjectContent>
-          <PContentTitle>Google Main Page (replica)</PContentTitle>
-          <PContentDes>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae cum animi repellat ipsum, facilis, asperiores iste eaque cumque neque enim placeat ipsam sunt quibusdam? Ratione deleniti nulla molestias ad fugit.</PContentDes>
-          <VisitButton><ButtonLink href={"https://world-holidays1305.netlify.app/"}>Visit Site</ButtonLink></VisitButton>
+          <PContentTitle>Breakfast App</PContentTitle>
+          <PContentDes>This website is based in a small project that my wife and me started in our Country (Colombia) in the middle of the pandemic, nor just as an alternative for get some extra money also as a possibility for connect families and friends in a time where meet with your loved family was almost impossible. We hope could do the same here in Canada in the future. </PContentDes>
+          <VisitButton><ButtonLink href={"https://breakfasts-app.netlify.app/"}>Visit Site</ButtonLink></VisitButton>
         </ProjectContent>
       </Projects>
       <Projects>
         <ProjectImg src='/images/projects/page2.jpg'/>
         <ProjectContent>
-          <PContentTitle>League Of Legends Main Page (replica)</PContentTitle>
-          <PContentDes>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae cum animi repellat ipsum, facilis, asperiores iste eaque cumque neque enim placeat ipsam sunt quibusdam? Ratione deleniti nulla molestias ad fugit.</PContentDes>
-          <VisitButton><ButtonLink href={"https://world-holidays1305.netlify.app/"}>Visit Site</ButtonLink></VisitButton>
+          <PContentTitle>Travel Blog</PContentTitle>
+          <PContentDes>A Blog where the users can register, create publications about their journies and also comment or give a rate to the entrances of other users. This website is perfect for tell histories and make friends in the process.</PContentDes>
+          <VisitButton><ButtonLink href={"https://travel-blog1305.netlify.app/"}>Visit Site</ButtonLink></VisitButton>
         </ProjectContent>
       </Projects>
       <Projects>
