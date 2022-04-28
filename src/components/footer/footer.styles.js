@@ -22,7 +22,7 @@ export const ButtonTouch = styled(Link)`
     }
 `;
 
-export const Nets = styled(Link)`
+export const Nets = styled.a`
     color:#FFF;
     display:flex;
     align-items:center;
