@@ -54,7 +54,7 @@ function Header() {
                 </Navbar.Brand>
                     <Navbar.Menu>
                         <Navbar.Container align="right">
-                            <Navbar.Item>
+                            <Navbar.Item href="/about">
                                 About
                             </Navbar.Item>
                             <Navbar.Item>
