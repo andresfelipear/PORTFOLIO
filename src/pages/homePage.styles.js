@@ -9,6 +9,16 @@ export const MainContainer = styled.div`
         from {opacity: 0; transform: translate(20vw, 30vh);}
         to {opacity: 1; transform: translateY(0);}
     }
+
+    @media (max-width:767px){
+        font-size: 5rem;  
+    }
+
+    @media (max-width:320px){
+        font-size: 3.75rem;  
+    }
+
+    
 `;
 
 export const FirstLine = styled.div`
@@ -43,7 +53,7 @@ export const MainPhoto = styled.div`
     background-size: auto 90%;
     animation:bg-photo 1.2s ease-out;	
     animation-fill-mode:backwards;
-    filter: grayscale(100%);
+    filter: grayscale(70%);
     border-radius:50px;
 
     @keyframes bg-photo {
@@ -51,11 +61,22 @@ export const MainPhoto = styled.div`
         100% {opacity: 1;transform: scale(1);}	
     }
     @media (min-width:1440px){
-        left:55vw;    
+        left:50vw;    
     }
 
-    @media (max-width:750px){
-        left:15vw;    
+    @media (max-width:767px){
+        top:7.5vh;
+        filter:blur(0.5px) grayscale(70%);
+        left:10vw;
+        right:10vw;    
+        background-size: 16rem;
+    }
+
+    @media (max-width:320px){
+        filter:blur(0.5px) grayscale(70%);
+        left:4vw;
+        right:4vw;    
+        background-size: 16rem;
     }
 
 `

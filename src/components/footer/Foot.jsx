@@ -36,15 +36,9 @@ function Foot() {
                     </div>
                     {!isDesktop && (
                         <div className="is-flex pr-4">
-                            <Navbar.Item>
-                                About
-                            </Navbar.Item>
-                            <Navbar.Item>
-                                Portfolio
-                            </Navbar.Item>
-                            <Navbar.Item href="/shopping-cart">
-                                Contact
-                            </Navbar.Item>
+                            <Icon size={"large"}> <Nets  to={""}><FontAwesomeIcon size='lg' icon={faFacebook} /></Nets> </Icon>
+                            <Icon size={"large"}> <Nets  to={""}><FontAwesomeIcon size='lg' icon={faLinkedin} /></Nets> </Icon>
+                            <Icon size={"large"}> <Nets  to={""}><FontAwesomeIcon size='lg' icon={faInstagram} /></Nets> </Icon>
                         </div>
                     )}
 
