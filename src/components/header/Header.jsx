@@ -39,13 +39,13 @@ function Header() {
                     </div>
                     {!isDesktop && (
                         <div className="is-flex pr-4">
-                            <Navbar.Item>
+                            <Navbar.Item href="/about">
                                 About
                             </Navbar.Item>
-                            <Navbar.Item>
+                            <Navbar.Item href="/portfolio">
                                 Portfolio
                             </Navbar.Item>
-                            <Navbar.Item href="/shopping-cart">
+                            <Navbar.Item href="/contact">
                                 Contact
                             </Navbar.Item>
                         </div>
