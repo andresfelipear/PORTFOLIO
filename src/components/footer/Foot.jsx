@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import { Footer, Icon, Navbar } from "react-bulma-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 import { ButtonTouch, Nets } from './footer.styles'
 
@@ -36,18 +36,19 @@ function Foot() {
                     </div>
                     {!isDesktop && (
                         <div className="is-flex pr-4">
-                            <Icon size={"large"}> <Nets  to={""}><FontAwesomeIcon size='lg' icon={faFacebook} /></Nets> </Icon>
-                            <Icon size={"large"}> <Nets  to={""}><FontAwesomeIcon size='lg' icon={faLinkedin} /></Nets> </Icon>
-                            <Icon size={"large"}> <Nets  to={""}><FontAwesomeIcon size='lg' icon={faInstagram} /></Nets> </Icon>
+                            <Icon size={"large"}> <Nets to={""}><FontAwesomeIcon size='lg' icon={faFacebook} /></Nets> </Icon>
+                            <Icon size={"large"}> <Nets to={""}><FontAwesomeIcon size='lg' icon={faLinkedin} /></Nets> </Icon>
+                            <Icon size={"large"}> <Nets to={""}><FontAwesomeIcon size='lg' icon={faInstagram} /></Nets> </Icon>
                         </div>
                     )}
 
                 </Navbar.Brand>
                 <Navbar.Menu>
-                    <Navbar.Container align="right" style={{alignItems:'center'}}>
-                            <Icon size={"large"}> <Nets  href={"https://www.facebook.com/andres.f.suarez.52/"}><FontAwesomeIcon size='lg' icon={faFacebook} /></Nets> </Icon>
-                            <Icon size={"large"}> <Nets  href={"https://www.linkedin.com/in/andres-felipe-arevalo-suarez-a80529102/"}><FontAwesomeIcon size='lg' icon={faLinkedin} /></Nets> </Icon>
-                            <Icon size={"large"}> <Nets  href={"https://www.instagram.com/andresarevalo12/"}><FontAwesomeIcon size='lg' icon={faInstagram} /></Nets> </Icon>
+                    <Navbar.Container align="right" style={{ alignItems: 'center' }}>
+                        <Icon size={"large"}> <Nets href={"https://www.linkedin.com/in/andres-felipe-arevalo-suarez-a80529102/"}><FontAwesomeIcon size='lg' icon={faLinkedin} /></Nets> </Icon>
+                        <Icon size={"large"}> <Nets href={"https://github.com/andresfelipear"}><FontAwesomeIcon size='lg' icon={faGithub} /></Nets> </Icon>
+                        <Icon size={"large"}> <Nets href={"https://www.facebook.com/andres.f.suarez.52/"}><FontAwesomeIcon size='lg' icon={faFacebook} /></Nets> </Icon>
+                        <Icon size={"large"}> <Nets href={"https://www.instagram.com/andresarevalo12/"}><FontAwesomeIcon size='lg' icon={faInstagram} /></Nets> </Icon>
                     </Navbar.Container>
                 </Navbar.Menu>
 
