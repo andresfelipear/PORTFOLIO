@@ -60,7 +60,7 @@ function Header() {
                             <Navbar.Item href="/portfolio">
                                 Portfolio
                             </Navbar.Item>
-                            <Navbar.Item href="/shopping-cart">
+                            <Navbar.Item href="/contact">
                                 Contact
                             </Navbar.Item>
                         </Navbar.Container>

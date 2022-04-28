@@ -1,0 +1,12 @@
+section .box input, section .box textarea{
+    border-color: var(--maincolor);
+}
+
+section .box input:hover, section .box textarea:hover{
+    border-color: var(--maincolorhov)!important;
+}
+
+section .box input:active, section .box textarea:active{
+    border-color: var(--maincolor)!important;
+    box-shadow: 0 0 0 0.125em var(--maincolorhov)!important;
+}
