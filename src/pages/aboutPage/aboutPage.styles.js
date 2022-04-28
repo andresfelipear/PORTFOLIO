@@ -68,6 +68,16 @@ export const IconImage = styled.img`
 	height: 30px;
 `
 
+export const ContentIcon = styled.div`
+    width: 30px;
+	height: 30px;
+    background-color:black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: #61DBFB;
+`
+
 export const IconDescription = styled.p`
     margin: 0px 0px 0px 10px;
 `
