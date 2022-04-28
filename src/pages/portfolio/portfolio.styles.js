@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
     padding: 20px 0px;
 	display: block;
+    @media (max-width:425px){
+        font-size:0.9rem;
+    }
 `
 export const Projects = styled.div`
     display: flex;
@@ -10,6 +13,10 @@ export const Projects = styled.div`
 	padding: 20px 20px;
 	justify-content: center;
 	align-items: center;
+    @media (max-width:768px){
+        flex-direction:column;  
+        text-align:center;
+    }
 `
 export const ProjectContent = styled.div`
     padding: 0px 20px;  
@@ -25,6 +32,10 @@ export const PContentTitle = styled.h1`
     margin-top: 10px;
 	margin-bottom: 40px;
     font-weight:bold;
+    @media (max-width:425px){
+        font-size:1.5rem;
+        margin-bottom: 20px;
+    }
 `
 
 export const VisitButton = styled.button`

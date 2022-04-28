@@ -5,12 +5,19 @@ export const MainContainer = styled.div`
     padding: 20px 0;
     justify-content: center;
     display: block;
+	@media (max-width:768px){
+        font-size:0.6rem;  
+    }
 `
 export const AboutMe = styled.div`
     width: 50vw;
 	text-align: justify;
 	margin: auto;
 	margin-bottom: 50px;
+	@media (max-width:768px){
+        max-width:80vw;
+		width:auto;    
+    }
 `
 export const AboutMeTitle = styled.h1`
     font-size:2rem;
@@ -38,17 +45,30 @@ export const Skills = styled.div`
 	margin: auto;
 	display: flex;
 	margin-bottom: 40px;
+	@media (max-width:768px){
+        max-width:90vw;
+		width:auto;    
+    }
+	@media (max-width:425px){
+		flex-direction: column;
+    }
 `
 export const ContentSkill = styled.div`
     border-right: 2px solid lightgrey;
 	width: 33.33%;
 	padding: 20px 10px;
-	text-align: center;
+	text-align: justify;
+	@media (max-width:425px){
+		width:auto;
+		border-bottom: 2px solid lightgrey;
+		border-right:none;
+    }
 `
 
 export const TitleSkill = styled.h4`
     color:var(--maincolor);
 	font-size: 18px;
+	text-align: center;
 `
 export const DescriptionSkill = styled.div`
     margin: 16px 10px 30px;
