@@ -10,3 +10,20 @@ section .box input:active, section .box textarea:active{
     border-color: var(--maincolor)!important;
     box-shadow: 0 0 0 0.125em var(--maincolorhov)!important;
 }
+
+@media screen and (max-width: 550px){
+    .contactForm{
+        width: auto!important;
+        padding: 20px 40px!important;
+    }
+
+    form label{
+        font-size: 0.8rem!important;
+    }
+    form button{
+        font-size: 0.8rem!important;
+    }
+    h1{
+        font-size: 1.4rem!important;
+    }
+}

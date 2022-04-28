@@ -63,7 +63,7 @@ function ContactPage() {
 
     return (
         <Section mt={3} >
-            <Box style={{ width: 510, margin: 'auto', padding: "70px 50px", backgroundColor: "white", border: '2px solid var(--maincolor)' }}>
+            <Box className='contactForm' style={{ width: '510px', margin: 'auto', padding: "70px 50px", backgroundColor: "white", border: '2px solid var(--maincolor)' }}>
                 <form onSubmit={submit}>
                     <Heading textAlign="center" style={{ color: 'rgba(85, 0, 197, 0.72)' }}>Who are you?</Heading>
                     <Form.Field>
