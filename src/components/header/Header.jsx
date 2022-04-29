@@ -4,7 +4,6 @@ import React, {  useEffect, useState } from "react";
 import { Navbar, Icon, } from "react-bulma-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAmilia } from '@fortawesome/free-brands-svg-icons'
-import { Link } from "react-router-dom";
 
 function Header() {
 
