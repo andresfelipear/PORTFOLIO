@@ -27,7 +27,6 @@ export const Nets = styled.a`
     display:flex;
     align-items:center;
     cursor:pointer;
-    target:_blank;
     &:hover{
         color: #E0AAFF;
     }

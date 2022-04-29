@@ -28,6 +28,8 @@ export const PContentDes = styled.p`
 `
 
 export const PContentTitle = styled.h1`
+    display:flex;
+    align-items:center;
     font-size:2rem;
     margin-top: 10px;
 	margin-bottom: 40px;
@@ -67,4 +69,16 @@ export const ButtonLink = styled.a`
 export const ProjectImg = styled.img`
     width: 570px;
 	height: 303px;
+`
+
+export const SocialMedia = styled.a`
+    color:var(--maincolor);
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    target:_blank;
+    &:hover{
+        color: #E0AAFF;
+    }
+    margin-left:20px;
 `
