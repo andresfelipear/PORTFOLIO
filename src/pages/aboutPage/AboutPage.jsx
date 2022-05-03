@@ -10,13 +10,15 @@ function AboutPage() {
             <AboutMe>
                 <AboutMeTitle> Just Me.</AboutMeTitle>
                 <AboutMeContent>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum perspiciatis provident rem dolores porro dolorem, exercitationem enim debitis? Ex quia iste et qui iusto non numquam adipisci. Voluptate, adipisci mollitia.
+                Hi, I'm Andres. I'm a junior web developer. Since I have memory, I've loved develop and the programming world. I'm very excited for be part of this world, for grow up in this and make me a name for my projects and my effort. I have knowdledge in Front End and Back End technologies and also in NoSQL and SQL databases.
+In this years I've made several courses and some certification in develop, but I still have a lot to learn and I expected for that.
+I can describe me as a capable person, how love work as part of a team and how like the challenges, because I am always ready to solve those problems and get all the experience and knowdledge that comes as part of this process.
+  
                 </AboutMeContent>
             </AboutMe>
             <Skills>
                 <ContentSkill>
                     <TitleSkill>Front-End</TitleSkill>
-                    <DescriptionSkill>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti facilis unde eaque veniam, ut consequuntur vel accusantium distinctio, voluptas possimus dolorum. Consectetur assumenda eaque rerum totam eos? Quos, tempore mollitia!</DescriptionSkill>
                     <ContainerIcons>
                         <ContainerIcon>
                             <ContentIcon><Icon><FontAwesomeIcon size='lg' icon={faReact}/></Icon></ContentIcon>
@@ -39,7 +41,6 @@ function AboutPage() {
 
                 <ContentSkill>
                     <TitleSkill>Back-End</TitleSkill>
-                    <DescriptionSkill>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti facilis unde eaque veniam, ut consequuntur vel accusantium distinctio, voluptas possimus dolorum. Consectetur assumenda eaque rerum totam eos? Quos, tempore mollitia!</DescriptionSkill>
                     <ContainerIcons>
                         <ContainerIcon>
                             <IconImage src='/images/nodejs.png' />
@@ -54,7 +55,6 @@ function AboutPage() {
 
                 <ContentSkill style={{ border: 'none' }}>
                     <TitleSkill>Databases</TitleSkill>
-                    <DescriptionSkill>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti facilis unde eaque veniam, ut consequuntur vel accusantium distinctio, voluptas possimus dolorum. Consectetur assumenda eaque rerum totam eos? Quos, tempore mollitia!</DescriptionSkill>
                     <ContainerIcons>
                         <ContainerIcon>
                             <IconMongoDB src='/images/mongodb.png' />

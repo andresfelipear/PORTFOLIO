@@ -57,7 +57,7 @@ function Foot() {
             <p style={{
                 fontSize: "12px",
                 fontStyle: "italic",
-            }}>© 2022 Andres Arevalo - Breakfast App </p>
+            }}>© 2022 Andres Arevalo</p>
         </Footer>
     )
 }

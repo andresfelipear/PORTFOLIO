@@ -27,10 +27,10 @@ export const AboutMeTitle = styled.h1`
     margin-bottom: 20px;
 `
 export const AboutMeContent = styled.p`
-    letter-spacing: 1px;
 	word-spacing: 2px;
-	font-style: oblique;
-	color: rgb(85, 0, 197,0.72);
+	font-style: italic;
+	font-weight: 100;
+	color: rgb(0,0,0,0.6);
 	border-bottom-left-radius: 25px;
 	border-top-right-radius: 10px;
 	border-bottom: 3px solid rgb(85, 0, 197, 0.5);
@@ -76,9 +76,12 @@ export const DescriptionSkill = styled.div`
 
 export const ContainerIcons = styled.div`
     background: rgb(105, 78, 180,0.3);
+	display:flex;
+	flex-direction:column;
     width:fit-content;
 	padding:20px 20px 10px 20px;
 	margin: auto;
+	margin-top:25px;
 	color: white;
 	font-style: italic;
 	border-radius: 10px;
