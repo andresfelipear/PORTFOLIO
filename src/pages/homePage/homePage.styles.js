@@ -37,19 +37,19 @@ export const MainContainer = styled.div`
 
     @media (max-width:425px){
         font-size: 3.3rem;  
-        padding: 20px 40px;
+        padding: 20px 25px;
         text-align:center;
 
         /* The typing effect */
         @keyframes typing {
         from { width: 0; color:#4A4A4A;}
-        to { width: 80vw; color:#4A4A4A; }
+        to { width: 60vw; color:#4A4A4A; }
         }
 
         /* The typing effect */
         @keyframes typing2 {
         from { width: 0; color:var(--maincolor) }
-        to { width: 80vw; color:var(--maincolor) }
+        to { width: 84vw; color:var(--maincolor) }
         }
     }
 
