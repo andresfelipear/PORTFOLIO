@@ -12,13 +12,13 @@ export const MainContainer = styled.div`
     /* The typing effect */
     @keyframes typing {
     from { width: 0; color:#4A4A4A;}
-    to { width: 35vw; color:#4A4A4A; }
+    to { width: 310px; color:#4A4A4A; }
     }
 
     /* The typing effect */
     @keyframes typing2 {
     from { width: 0; color:var(--maincolor) }
-    to { width: 50vw; color:var(--maincolor) }
+    to { width: 410px; color:var(--maincolor) }
     }
 
     /* The typewriter cursor effect */
@@ -29,10 +29,21 @@ export const MainContainer = styled.div`
 
     @media (min-width:769px) and (max-width:1440px){
         font-size: 6.5rem;  
+
     }
 
     @media (max-width:768px){
         font-size: 5rem;  
+
+        @keyframes typing {
+        from { width: 0; color:#4A4A4A;}
+        to { width: 240px; color:#4A4A4A; }
+        }
+
+        @keyframes typing2 {
+        from { width: 0; color:var(--maincolor) }
+        to { width: 315px; color:var(--maincolor) }
+        }
     }
 
     @media (max-width:425px){
@@ -43,13 +54,13 @@ export const MainContainer = styled.div`
         /* The typing effect */
         @keyframes typing {
         from { width: 0; color:#4A4A4A;}
-        to { width: 60vw; color:#4A4A4A; }
+        to { width: 165px; color:#4A4A4A; }
         }
 
         /* The typing effect */
         @keyframes typing2 {
         from { width: 0; color:var(--maincolor) }
-        to { width: 84vw; color:var(--maincolor) }
+        to { width: 210px; color:var(--maincolor) }
         }
     }
 
@@ -61,11 +72,10 @@ export const FirstLine = styled.div`
     width: fit-content;
     overflow: hidden; 
     border-right: .05em solid transparent;
-    white-space: nowrap; 
-    letter-spacing: .15em; 
+    white-space: nowrap;  
     animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end 5;
+    typing 3.6s steps(60, end),
+    blink-caret 0.6s step-end 6;
 
     @media (max-width:425px){
         margin: 0 auto;
@@ -79,10 +89,9 @@ export const SecondLine = styled.div`
     overflow: hidden; 
     border-right: .05em solid transparent; 
     white-space: nowrap; 
-    letter-spacing: .15em; 
     animation: 
-    typing 3.5s steps(40, end) 3.5s forwards,
-    blink-caret .75s step-end 3.5s 5;
+    typing 3s steps(50, end) 3.4s forwards,
+    blink-caret 0.6s step-end 3.4s 5;
     @media (max-width:425px){
         margin: 0 auto; 
     }
@@ -95,10 +104,9 @@ export const ThirdLine = styled.div`
     overflow: hidden; 
     border-right: .05em solid transparent;
     white-space: nowrap; 
-    letter-spacing: .15em;
     animation: 
-    typing2 4.5s steps(40, end) 7s forwards,
-    blink-caret .75s step-end 7s 6;
+    typing2 4.8s steps(80, end) 6s forwards,
+    blink-caret 0.6s step-end 6s infinite;
     @media (max-width:425px){
         margin: 0 auto;
     }
