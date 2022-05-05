@@ -12,13 +12,13 @@ export const MainContainer = styled.div`
     /* The typing effect */
     @keyframes typing {
     from { width: 0; color:#4A4A4A;}
-    to { width: 310px; color:#4A4A4A; }
+    to { width: 490px; color:#4A4A4A; }
     }
 
     /* The typing effect */
     @keyframes typing2 {
     from { width: 0; color:var(--maincolor) }
-    to { width: 410px; color:var(--maincolor) }
+    to { width: 630px; color:var(--maincolor) }
     }
 
     /* The typewriter cursor effect */
@@ -30,6 +30,15 @@ export const MainContainer = styled.div`
     @media (min-width:769px) and (max-width:1440px){
         font-size: 6.5rem;  
 
+        @keyframes typing {
+        from { width: 0; color:#4A4A4A;}
+        to { width: 310px; color:#4A4A4A; }
+        }
+    
+        @keyframes typing2 {
+        from { width: 0; color:var(--maincolor) }
+        to { width: 410px; color:var(--maincolor) }
+        }
     }
 
     @media (max-width:768px){
@@ -91,7 +100,7 @@ export const SecondLine = styled.div`
     white-space: nowrap; 
     animation: 
     typing 3s steps(50, end) 3.4s forwards,
-    blink-caret 0.6s step-end 3.4s 5;
+    blink-caret 0.5s step-end 3.4s 5;
     @media (max-width:425px){
         margin: 0 auto; 
     }
