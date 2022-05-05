@@ -69,6 +69,11 @@ export const ButtonLink = styled.a`
 export const ProjectImg = styled.img`
     width: 570px;
 	height: 303px;
+
+    &:hover{
+        filter:saturate(120%);
+        height: 320px;
+    }
 `
 
 export const SocialMedia = styled.a`
