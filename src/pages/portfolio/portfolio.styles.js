@@ -78,7 +78,8 @@ export const SocialMedia = styled.a`
     cursor:pointer;
     target:_blank;
     &:hover{
-        color: #E0AAFF;
+        color:var(--maincolor);
+        filter:brightness(1.2);
     }
     margin-left:20px;
 `
