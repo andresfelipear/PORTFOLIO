@@ -100,7 +100,7 @@ function Portfolio() {
         <ProjectImg src="/images/projects/page3.jpg" />
         <ProjectContent>
           <PContentTitle>
-            World Holidays (REACT){' '}
+            World Holidays (REACT)
             <Icon size={'medium'}>
               {' '}
               <SocialMedia
