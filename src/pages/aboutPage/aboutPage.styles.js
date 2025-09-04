@@ -29,7 +29,7 @@ export const AboutMeTitle = styled.h1`
 export const AboutMeContent = styled.p`
   font-family: 'Lato', sans-serif;
   word-spacing: 2px;
-  font-weight: 100;
+  font-weight: 300;
   color: rgb(0, 0, 0, 0.6);
   border-bottom-left-radius: 25px;
   border-top-right-radius: 10px;
