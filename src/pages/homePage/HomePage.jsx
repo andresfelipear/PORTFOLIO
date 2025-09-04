@@ -10,6 +10,8 @@ import {
   Skills,
 } from './homePage.styles'
 
+import { Link } from 'react-router-dom'
+
 function HomePage() {
   return (
     <MainContainer>
@@ -31,8 +33,13 @@ function HomePage() {
       </Description>
 
       <ButtonContainer>
-        <Button primary>About Me</Button>
-        <Button>Explore My Work</Button>
+        <Link to="/about">
+          <Button primary>About Me</Button>
+        </Link>
+
+        <Link to="/portfolio">
+          <Button>Explore My Work</Button>
+        </Link>
       </ButtonContainer>
 
       <Skills>
